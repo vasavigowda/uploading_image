@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Uploading</title>
+</head>
+
+<body>
+	<hr>
+	<div>
+		<form action="/add" method="POST" enctype="multipart/form-data">
+			<div>
+				<label for="Name">Name:</label>
+				<input type="text" placeholder="enter" id="Name" value="" name="Name" required></br></br>
+			</div>
+			<label >Description:</label>
+    <input type="text" placeholder="enter " name="Description" value=""></br></br>
+    <label >Longitude:</label>
+    <input type="text" placeholder="enter" name="longitude" value=""></br></br>
+    <label >Latitude:</label>
+    <input type="text" placeholder="enter" name="latitude" value=""></br></br>
+    <label >Order_num:</label>
+    <input type="text" placeholder="enter" name="ordernum" value=""></br></br>
+    <label >Background_media:</label>
+    <input type="text" placeholder="enter" name="backgroundmedia" value=""></br></br>
+    <div>
+        <label for="image">Upload Image</label>
+        <input type="file" id="image"	name="image" value="" required>
+	</div></br></br> 
+    <label >Webm_media:</label>
+    <input type="text" placeholder="enter" name="webmmedia" value=""></br></br>
+	<div>
+		<button type="submit">Submit</button>
+	</div>
+		</form>
+	</div>
+	<hr>
+</body>
+</html>
+
